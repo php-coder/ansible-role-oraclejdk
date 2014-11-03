@@ -23,13 +23,13 @@ Example Playbook
 
 Example of usage with default parameters:
 
-    - hosts: localhost
+    - hosts: all
       roles:
          - php-coder.oraclejdk
 
 Example of usage to install OracleJDK 7:
 
-    - hosts: localhost
+    - hosts: all
       roles:
          - { role: php-coder.oraclejdk, oraclejdk_package: 'oracle-java7-installer' }
 
