@@ -1,7 +1,7 @@
 Ansible role for OracleJDK installation
 =======================================
 
-Installs OracleJDK 8 from WebUpd8 team's PPA (http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html).
+Installs OracleJDK from WebUpd8 team's PPA (http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html).
 
 Role Variables
 --------------
