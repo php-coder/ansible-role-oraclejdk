@@ -25,13 +25,13 @@ Example of usage with default parameters:
 
     - hosts: localhost
       roles:
-         - phpcoder.oraclejdk
+         - php-coder.oraclejdk
 
 Example of usage to install OracleJDK 7:
 
     - hosts: localhost
       roles:
-         - { role: phpcoder.oraclejdk, oraclejdk_package: 'oracle-java7-installer' }
+         - { role: php-coder.oraclejdk, oraclejdk_package: 'oracle-java7-installer' }
 
 License
 -------
@@ -41,4 +41,4 @@ GPLv2
 Author Information
 ------------------
 
-Slava Semushin <slava.semushin@gmail.com>
+Slava Semushin (slava.semushin@gmail.com)
