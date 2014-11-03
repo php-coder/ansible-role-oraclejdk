@@ -18,6 +18,13 @@ Actions role
 * accepts Oracle's license
 * installs package
 
+How to install
+--------------
+
+    ansible-galaxy install php-coder.oraclejdk
+
+For more installation's options/variants read the documentation: http://docs.ansible.com/galaxy.html
+
 Example Playbook
 ----------------
 
