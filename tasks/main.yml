@@ -16,3 +16,9 @@
   apt:
     name={{ oraclejdk_package }}
     state=present
+
+- name: Set default JDK
+  apt:
+    name={{ oraclejdk_package | regex_replace('^.*([0-9]).*$', 'oracle-java\\1-set-default') }}
+    state=present
+  when: oraclejdk_set_as_default

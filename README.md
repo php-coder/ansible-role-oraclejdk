@@ -10,6 +10,12 @@ Role Variables
 
   Name of package to install (default is `oracle-java8-installer`).
 
+* `oraclejdk_set_as_default`
+
+  Setting JDK as default JDK. When this parameter is set to `true` then alternatvies will be updated
+  and environment variables like `JAVA_HOME` will be changed. In reality it just installs
+  appropriate `oracle-javaX-set-default` package. (Default is `true`).
+
 Actions role
 ------------
 
