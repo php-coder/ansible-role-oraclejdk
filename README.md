@@ -22,7 +22,7 @@ Actions role
 * adds `webupd8team/java` PPA
 * updates `apt`'s cache
 * accepts Oracle's license
-* installs package
+* installs package(s)
 
 How to install
 --------------
