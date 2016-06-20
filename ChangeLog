@@ -1,3 +1,6 @@
+1.3
+- Fix "oracle-license-v1-1 license could not be presented" error.
+
 1.2
 - Add Ubuntu 16.04 LTS to list of supported versions.
 - Change style of tasks' definitions.

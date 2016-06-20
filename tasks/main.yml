@@ -6,11 +6,11 @@
     update_cache: yes
 
 - name: Accept Oracle license
-  debconf:
-    name: "{{ oraclejdk_package }}"
-    question: shared/accepted-oracle-license-v1-1
-    vtype: select
-    value: true
+  shell:
+    echo debconf shared/accepted-oracle-license-v1-1 "{{ item }}" true | debconf-set-selections
+  with_items:
+    - select
+    - seen
 
 - name: Install OracleJDK package
   apt:
